@@ -59,7 +59,7 @@ async function main() {
   const provider = new HDWalletProvider(
     "insect borrow repair hammer goddess battle matrix group diet satoshi rotate worry",
     isInfura
-      ? "https://rinkeby.infura.io/v3/3d0aead7f3714806b423113624945249"
+      ? ""
       : "https://eth-" + network + ".alchemyapi.io/v2/" + NODE_API_KEY
   );
   const web3Instance = new web3(provider);
